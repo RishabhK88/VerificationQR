@@ -1,0 +1,31 @@
+@media only screen and (max-width: 480px) {
+  .img-1 {
+    display: none;
+  }
+  .img-2 {
+    display: block;
+    border-radius: 15px;
+  }
+  .content-box {
+    display: flex;
+  }
+  .clan-title {
+    margin: auto;
+    font-size: 1.5rem;
+  }
+  .score {
+    font-size: 3rem;
+    width: 120px;
+  }
+
+  .main-overlay {
+    position: fixed;
+    height: 100vh;
+  }
+  
+  .responsive{
+  width: 70%;
+  height: auto;
+}
+  /*Ends*/
+}
